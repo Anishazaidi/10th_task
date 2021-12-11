@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+} 
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  --primary-color: #ce5bf1;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  min-width: 100vw;
+}
+
+.container {
+  margin: 4rem auto 7rem;
+  text-align: center;
+}
+
+.heading {
+    color: #3408f6
+  ;
+}
+
+.description {
+  font-size: larger;
+  margin: 1rem;
+}
+h1{
+    color: #3408f6;
+}
+
+
+
+
+.input-label {
+  display: block;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.input {
+  font-size: 15px;
+  outline: rgb(113, 11, 247);
+  padding: 0.6rem 1rem;
+  margin: 1rem;
+  border: 2px solid var(--primary-color);
+  border-radius: 0.5rem;
+  width: 100%;
+  max-width: 600px;
+}
+
+
+#check-button {
+  background: var(--primary-color);
+  border: none;
+  color: rgb(43, 11, 224);
+  padding: 0.8rem 7rem;
+  border-radius: 0.5rem;
+  font-size: large;
+  cursor: pointer;
+  outline: rgb(20, 39, 211);
+  margin: auto;
+  display: block;
+}
+#error-message {
+  display: block;
+  font-size: larger;
+  margin: 2rem 0 0;
+}
+
+.change-table {
+  width: 0%;
+  text-align: justify;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.change-table caption {
+  margin: rem;
+  font-size: large;
+  font-weight: 800;
+}
+
+th,
+td {
+  border: 5px solid var(--primary-color);
+  width: 0%;
+  border-collapse: collapse;
+  padding: 0.8rem;
+}
+
+
+footer {
+  text-align: center;
+}
+
+footer p {
+  font-size: x-large;
+  text-align: center;
+}
+
+.footer-list {
+  margin: 1rem;
+}
+
+a,
+img,
+li {
+  display: inline;
+}
+
+img {
+  width:px;
+  padding: 0.rem;
+}
+
+#check-button {
+    background: var(--primary-color);
+    border: none;
+    color: rgb(7, 11, 253);
+    padding: 0.10rem 1rem;
+    border-radius: 0.10rem;
+    font-size: large;
+    cursor: pointer;
+    outline: rgb(9, 82, 238);
+    margin: auto;
+    display: block;
+  }
+.btn{
+    bottom: rgb(4, 152, 221);
+}
+
+button{
+
+  background-color: var(--background-dark);
+
+  padding: 0.6rem 1rem;
+  border-radius: 0.8rem;
+  font-size: large;
+  cursor: pointer;
+  outline: var(--blue);
+  margin: auto;
+  display: block;
+}
